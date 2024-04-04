@@ -16,6 +16,7 @@ setup hardware circuit
 
 connect power and ground of all components to a 5V 2A power source and ground respectively
 
+
 ARDUINO UNO PINS:
 
 RST -> ARDUINO UNO GND
@@ -23,6 +24,7 @@ RST -> ARDUINO UNO GND
 TX -> ESP32CAM TXD
 
 RX -> ESP32CAM RXD
+
 
 ESP32CAM PINS:
 
