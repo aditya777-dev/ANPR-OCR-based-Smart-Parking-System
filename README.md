@@ -48,7 +48,7 @@ start your webserver by executing "ANPR-OCR-webserver.ipynb"
 # Step 4
 Load esp32cam config from "CameraWebServerServo.ino" file located in "CameraWebServerServo.zip" into esp32cam module
 
-use ssid and password of the same wifi network connected to the webserver device
+use ssid and password of the same wifi network connected to the webserver device in "CameraWebServerServo.ino"
 
 use Arduino IDE and Arduino UNO to load esp32cam config into esp32cam module
 
