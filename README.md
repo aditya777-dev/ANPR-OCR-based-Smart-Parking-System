@@ -4,7 +4,7 @@ Additionally a webserver to authenticate a car using Automatic Number Plate Reco
 
 # Step 1
 refer to 
-https://www.youtube.com/watch?v=0-4p_QgrdbE
+https://www.youtube.com/watch?v=0-4p_QgrdbE &
 https://github.com/nicknochnack/TFODCourse
 to setup ANPR on your device
 
