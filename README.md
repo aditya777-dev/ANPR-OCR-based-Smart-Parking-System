@@ -14,8 +14,9 @@ to setup ANPR on your device
 # Step 2
 setup hardware circuit
 
-connect power and ground of all components to a 5V 2A power source and ground respectively
+COMPONENTS: EM-18 RFID Reader, ESP32CAM, Servo Motor, IR Sensor, Arduino Uno (only for uploading esp32cam code)
 
+connect power and ground of all components to a 5V 2A power source and ground respectively
 
 ARDUINO UNO PINS:
 
@@ -24,7 +25,6 @@ RST -> ARDUINO UNO GND
 TX -> ESP32CAM TXD
 
 RX -> ESP32CAM RXD
-
 
 ESP32CAM PINS:
 
@@ -56,7 +56,7 @@ use "Wrover Module" as board to upload code to esp32cam
 
 on uploading code, to hard reset (only when mentioned in arduino ide console), disconnect GPIO0 and GND connection and press reset button on esp32cam
 
-once upload is comlpete, disconnect TX, RX pins from Arduino UNO
+once upload is comlpete, disconnect TX, RX pins and seperate Arduino UNO from circuit
 
 # Step 5
 make sure your webserver device and esp32cam are connected to the same wifi network
